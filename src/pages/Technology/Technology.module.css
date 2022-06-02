@@ -1,0 +1,169 @@
+.bg {
+  background-image: url(../starter-code/assets/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .bg {
+    background-image: url(../starter-code/assets/technology/background-technology-tablet.jpg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .bg {
+    background-image: url(../starter-code/assets/technology/background-technology-mobile.jpg);
+  }
+}
+
+.bg h1 {
+  padding-top: 15rem;
+  -webkit-padding-start: 10rem;
+          padding-inline-start: 10rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+.bg h1 span {
+  color: rgba(255, 255, 255, 0.295);
+}
+
+.bg .main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2.5fr 1.5fr;
+      grid-template-columns: 1fr 2.5fr 1.5fr;
+  grid-gap: 3rem;
+  padding-top: 18rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main {
+    margin-top: 10rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding-top: 10rem;
+  }
+}
+
+.bg .main .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-block: 8rem;
+    margin: auto;
+    padding-left: 0;
+  }
+}
+
+.bg .main .btn button {
+  height: 5rem;
+  width: 5rem;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.bg .main .btn .active {
+  background-color: #fff;
+  color: #000;
+}
+
+.bg .main .ctx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main .ctx {
+    text-align: center;
+  }
+}
+
+.bg .main .ctx h1 {
+  padding-top: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  font-size: 5.6rem;
+  font-family: "Bellefair", serif;
+}
+
+.bg .main .ctx p {
+  color: rgba(208, 214, 249, 0.479);
+  font-size: 2rem;
+  font-family: "Barlow", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main .ctx p {
+    margin-block: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main .image {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / span 2;
+  }
+}
+
+.bg .main .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg .main .image .imgmbl {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main .image .imgmbl {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bg .main .image .imgdesk {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Technology.module.css.map */

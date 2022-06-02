@@ -1,0 +1,156 @@
+.bg {
+  background-image: url(../starter-code/assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .bg {
+    height: 120vh;
+  }
+}
+
+.bg h1 {
+  padding-top: 15rem;
+  padding-inline: 10rem;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.bg h1 span {
+  color: rgba(255, 255, 255, 0.301);
+  margin-right: 0.8rem;
+}
+
+.bg .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 10rem;
+}
+
+@media screen and (max-width: 700px) {
+  .bg .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .bg .main {
+    padding-inline: 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bg .main {
+    padding-inline: 0;
+  }
+}
+
+.bg .main .ctx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .bg .main .ctx {
+    margin-bottom: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.bg .main .ctx h2 {
+  padding-top: 10rem;
+  font-family: "Bellefair", serif;
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.301);
+}
+
+.bg .main .ctx h1 {
+  padding-top: 0;
+  padding-inline: 0;
+  font-family: "Bellefair", serif;
+  font-size: 5.6rem;
+  font-weight: 400;
+}
+
+.bg .main .ctx p {
+  font-size: 1.8rem;
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+  padding-top: 2rem;
+}
+
+.bg .main .ctx .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+.bg .main .ctx .btns button {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.281);
+}
+
+.bg .main .ctx .btns .active {
+  background: #fff;
+}
+
+.bg .main img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .bg .main img {
+    height: 55rem;
+  }
+}
+/*# sourceMappingURL=Crew.module.css.map */

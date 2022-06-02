@@ -1,0 +1,221 @@
+.Maindes {
+  background-image: url("../starter-code/assets/destination/background-destination-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  z-index: -10;
+}
+
+@media screen and (max-width: 1100px) {
+  .Maindes {
+    background-image: url("../starter-code/assets/destination/background-destination-tablet.jpg");
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Maindes {
+    background-image: url("../starter-code/assets/destination/background-destination-mobile.jpg");
+    height: 120vh;
+  }
+}
+
+.Maindes section {
+  padding-top: 18rem;
+  padding-inline: 10rem;
+}
+
+.Maindes section h1 {
+  margin-bottom: 5rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.Maindes section h1 span {
+  color: white;
+  font-weight: 700;
+}
+
+.Maindes .contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .Maindes .contain {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2rem;
+  }
+}
+
+.Maindes .contain .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Maindes .contain .img .rotate {
+  -webkit-animation: rotation 5s infinite linear;
+          animation: rotation 5s infinite linear;
+}
+
+@media screen and (max-width: 700px) {
+  .Maindes .contain .img .rotate {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+.Maindes .contain .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Maindes .description {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .Maindes .description {
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+
+.Maindes .description ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .Maindes .description ul {
+    margin: auto;
+    margin-block: 3rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.Maindes .description ul .border {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.836);
+}
+
+.Maindes .description ul li {
+  font-size: 2rem;
+  font-family: "Barlow Condensed", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.Maindes .description .planet h1 {
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-weight: 400;
+  font-family: "Bellefair", serif;
+}
+
+.Maindes .description .planet p {
+  font-size: 1.8rem;
+  color: #d0d6f9;
+  font-family: "Barlow", sans-serif;
+}
+
+.Maindes .description .planet .line {
+  background: #383b4b;
+  height: 5px;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.Maindes .description .planet .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .Maindes .description .planet .about {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.Maindes .description .planet .about p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.Maindes .description .planet .about h3 {
+  color: white;
+  font-size: 2.8rem;
+  font-family: "Bellefair", serif;
+}
+/*# sourceMappingURL=Destination.module.css.map */

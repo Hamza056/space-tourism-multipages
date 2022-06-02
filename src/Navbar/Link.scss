@@ -1,0 +1,30 @@
+.active {
+  position: relative;
+  &::after {
+    content: "";
+
+    display: block;
+    position: absolute;
+    top: 4rem;
+    height: 0.2rem;
+    width: 100%;
+    background-color: #fff;
+    @media screen and (max-width: 700px) {
+      display: none;
+    }
+  }
+}
+
+.active {
+  @media screen and (max-width: 700px) {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 5rem;
+      height: 0.2rem;
+      width: 100%;
+      background: #fff;
+    }
+  }
+}
