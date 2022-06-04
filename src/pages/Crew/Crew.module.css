@@ -2,7 +2,7 @@
   background-image: url(../starter-code/assets/crew/background-crew-desktop.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  padding-bottom: 55rem;
   width: 100%;
   color: #fff;
 }
@@ -115,6 +115,12 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 1200px) {
+  .bg .main .ctx h1 {
+    font-size: 4.5rem;
+  }
+}
+
 .bg .main .ctx p {
   font-size: 1.8rem;
   color: #d0d6f9;
@@ -141,6 +147,8 @@
 
 .bg .main .ctx .btns .active {
   background: #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .bg .main img {
@@ -151,6 +159,7 @@
 @media screen and (max-width: 700px) {
   .bg .main img {
     height: 55rem;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=Crew.module.css.map */

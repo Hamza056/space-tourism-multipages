@@ -1,5 +1,7 @@
 .Main {
-  height: 100vh;
+  // height: 100vh;
+  padding-bottom: 50rem;
+  padding-top: 30rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,17 +10,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  padding-top: 18rem;
+
   @media screen and (max-width: 1100px) {
     background-image: url("./home/background-home-tablet.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 30rem;
   }
   @media screen and (max-width: 600px) {
     background-image: url("./home/background-home-mobile.jpg");
+  }
+  @media screen and (max-width: 400px) {
+    background-image: url("./home/background-home-mobile.jpg");
+    padding-block: 45rem;
   }
   gap: 10rem;
   .ctx {
@@ -41,6 +47,9 @@
       font-size: 15rem;
       font-family: "Bellefair", serif;
       font-weight: 400;
+      @media screen and (max-width: 1000px) {
+       font-size: 12rem;
+      }
     }
     p {
       font-size: 1.8rem;
