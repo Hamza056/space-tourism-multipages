@@ -6,10 +6,7 @@ import img3 from "../starter-code/assets/destination/Bitmap2.svg";
 import img4 from "../starter-code/assets/destination/Bitmap4.svg";
 // import destinations from "../starter-code/data.json";
 const Destination = () => {
-  //   const [planets] = useState(destinations);
-  //   const [Value, setValue] = useState(0);
-  //   const { name, images, description, distance, travel } =
-  //     planets.destinations[Value];
+  
 
   const [Moon, setMoon] = useState(true);
   const Moonactive = () => {
