@@ -4,7 +4,7 @@ import img1 from "../starter-code/assets//destination/Bitmap.svg";
 import img2 from "../starter-code/assets//destination/Bitmap1.svg";
 import img3 from "../starter-code/assets/destination/Bitmap2.svg";
 import img4 from "../starter-code/assets/destination/Bitmap4.svg";
-// import destinations from "../starter-code/data.json";
+
 const Destination = () => {
   
 
