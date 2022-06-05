@@ -47,6 +47,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        order: 1;
       }
       gap: 1rem;
       h2 {
@@ -95,6 +96,7 @@
       @media screen and (max-width: 700px) {
         height: 55rem;
         max-width: 100%;
+        margin-top: 2rem;
       }
     }
   }

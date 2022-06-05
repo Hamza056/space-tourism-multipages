@@ -60,18 +60,26 @@
     list-style-type: none;
     gap: 2rem;
     margin-right: 5rem;
-    background: rgba(47, 52, 59, 0.733);
-    backdrop-filter: blur(8.5rem);
+    background: #FFFFFF0A;
+
+
+
+    backdrop-filter: blur(84px);
+  
     padding-block: 2rem;
 
     width: 80vw;
     padding-left: 5rem;
-    height: 150vh;
+    height: 100vh;
 
     padding-top: 15rem;
     gap: 5rem;
     position: relative;
     margin-right: 0;
+    z-index: 1000;
+   
+  
+    
     img {
       max-width: 100%;
       display: flex;
