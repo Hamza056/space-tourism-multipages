@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Classes from "./Crew.module.css";
-import img1 from "../starter-code/assets/crew/image-douglas-hurley.png";
-import img2 from "../starter-code/assets/crew/image-mark-shuttleworth.png";
-import img3 from "../starter-code/assets/crew/image-victor-glover.png";
-import img4 from "../starter-code/assets/crew/image-anousheh-ansari.png";
+import img1 from "../starter-code/assets/crew/image-removebg-preview(289).svg";
+import img2 from "../starter-code/assets/crew/image-removebg-preview(262).svg";
+import img3 from "../starter-code/assets/crew/image-removebg-preview(288)(1).svg";
+import img4 from "../starter-code/assets/crew/image-removebg-preview(265).svg";
 const Crew = () => {
   const [Doglas, setDoglas] = useState(true);
   const Doglasactive = () => {

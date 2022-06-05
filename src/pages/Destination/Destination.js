@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Classes from "./Destination.module.css";
-import img1 from "../starter-code/assets/destination/image-moon.png";
-import img2 from "../starter-code/assets/destination/image-mars.png";
-import img3 from "../starter-code/assets/destination/image-europa.png";
-import img4 from "../starter-code/assets/destination/image-titan.png";
+import img1 from "../starter-code/assets//destination/Bitmap.svg";
+import img2 from "../starter-code/assets//destination/Bitmap1.svg";
+import img3 from "../starter-code/assets/destination/Bitmap2.svg";
+import img4 from "../starter-code/assets/destination/Bitmap4.svg";
 // import destinations from "../starter-code/data.json";
 const Destination = () => {
   //   const [planets] = useState(destinations);
